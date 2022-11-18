@@ -1,6 +1,54 @@
-.hello{
-    color: rgb(255, 255, 255);
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,400;1,700&family=Montserrat:ital,wght@0,200;0,300;0,500;1,400&family=Sacramento&display=swap');
+body {
+    margin: 0;
+    text-align: center;
+    
+    
 }
-body{
-    background-color: blue;
+
+h1 {
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+}
+
+p{
+    font-family: 'Merriweather', serif;
+}
+
+.main {
+    background-color: #B1B2FF;
+}
+
+
+.span {
+    text-decoration: underline;
+}
+
+.bottom-cloud {
+    position: absolute;
+    margin-bottom: 20px;
+}
+
+.top-cloud {
+    position: relative;
+    margin-top: 50px;
+    left: 200px;
+    margin-bottom: 20px;
+
+}
+
+.mountain{
+    margin-bottom: 30px;
+}
+
+.explore-img{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+}
+
+.explore-img2{
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
 }
